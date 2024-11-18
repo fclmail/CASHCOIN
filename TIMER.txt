@@ -1,0 +1,2 @@
+<script src="https://cdn.logwork.com/widget/countdown.js"></script>
+<a href="https://logwork.com/countdown-timer" class="countdown-timer" data-timezone="America/Toronto" data-textcolor="#0c9635" data-date="2024-12-18 03:00" data-background="#0c8221" data-digitscolor="#26e35f" data-unitscolor="#179c25">CA$H COIN GET NOW BEFORE PRICE GOES UP</a>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Coin</title>
+    <style>
+        body {
+            background-color: #00ff00; /* Glowing green background */
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        img {
+            width: 300px;
+            margin-bottom: 30px;
+        }
+
+        #paypal-container-QRH6PDCE8S7P8 {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .countdown-timer {
+            font-size: 20px;
+            color: #26e35f;
+            background-color: #0c8221;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .countdown-timer:hover {
+            background-color: #179c25;
+        }
+    </style>
+</head>
+<body>
+    <!-- Title and Image -->
+    <h1>CA$H COIN</h1>
+    <img src="cashgif.gif" alt="Cash GIF">
+
+    <!-- PayPal Button -->
+    <script src="https://www.paypal.com/sdk/js?client-id=BAAD6tp9GGPNolM5XDQ1JVr0cfhZv3Y9vT_TIPSwqsYPKuHiOb2z1soff0v9ykTk2_68MhGIFgx8rfhj00&components=hosted-buttons&disable-funding=venmo&currency=CAD"></script>
+    <div id="paypal-container-QRH6PDCE8S7P8"></div>
+    <script>
+        paypal.HostedButtons({
+            hostedButtonId: "QRH6PDCE8S7P8",
+        }).render("#paypal-container-QRH6PDCE8S7P8");
+    </script>
+
+    <!-- Countdown Timer -->
+    <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+    <a href="https://logwork.com/countdown-timer" class="countdown-timer" data-timezone="America/Toronto" data-textcolor="#0c9635" data-date="2024-12-18 03:00" data-background="#0c8221" data-digitscolor="#26e35f" data-unitscolor="#179c25">CA$H COIN GET NOW BEFORE PRICE GOES UP</a>
+</body>
+</html>
